@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "typescrip-platzi"
+    }
+  },
+  "defaultProject": "typescrip-platzi",
+  "cli": {
+    "analytics": "0d54151f-8ae4-4682-bbb9-f26b3c9bb475"
+  }
 }
