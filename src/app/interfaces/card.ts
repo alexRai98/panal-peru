@@ -11,5 +11,5 @@ export enum Units {
   libra,
   caja,
   cuartilla,
-  arroba
+  arroba,
 }
