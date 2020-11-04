@@ -7,11 +7,11 @@ export interface Card {
 }
 
 export enum Units {
-  kilogramo,
-  libra,
-  caja,
-  cuartilla,
-  arroba,
-  unidad,
-  ato
+  kilogramo = 'Kilorgramo',
+  libra = 'Libra',
+  caja = 'Caja',
+  cuartilla = 'Cuartilla',
+  arroba = 'Arroba',
+  unidad = 'Unidad',
+  ato = 'Ato',
 }

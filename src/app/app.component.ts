@@ -8,7 +8,7 @@ import { Product } from './interfaces/product';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'typescrip-platzi';
+  title = 'Panal Fresh Perú';
   products: Product[] = [
     {
       id: 1,
@@ -39,4 +39,8 @@ export class AppComponent {
       unit: Units.ato,
     },
   ];
+
+  addToCard(id: number) {
+    console.log(id);
+  }
 }

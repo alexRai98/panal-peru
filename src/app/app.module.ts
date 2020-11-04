@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { environment } from 'src/environments/environment';
-import { CardService } from './services/card.service';
+import { ProductComponent } from './components/product.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +19,7 @@ import { CardService } from './services/card.service';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
   ],
-  providers: [CardService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,43 @@
+:host {
+  border: 1px solid rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  color: #4a4a4a;
+}
+.product-title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 16px 0;
+  padding: 0 1em;
+  height: 3.6em;
+}
+.product-actions{
+  display: flex;
+  flex-direction: column;
+  background-color: #ECF0F1;
+  text-align: center;
+  padding: 1em;
+}
+.product-actions_price{
+  margin: 0;
+ margin-bottom: 14px;
+}
+
+.product-actions_price strong{
+  color: #f1982f;
+}
+
+.product-actions_button{
+  border: none;
+  border-radius: 30px;
+  height: 46px;
+  width: 176px;
+  background-color: #71a32f;
+  color: #ffffff;
+  align-self: center;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
