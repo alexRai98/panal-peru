@@ -7,11 +7,15 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { environment } from 'src/environments/environment';
 import { ProductComponent } from './components/product.component';
+import { ProductsComponent } from './products/products.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductComponent
+    ProductComponent,
+    ProductsComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
