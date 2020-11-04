@@ -12,4 +12,6 @@ export enum Units {
   caja,
   cuartilla,
   arroba,
+  unidad,
+  ato
 }
