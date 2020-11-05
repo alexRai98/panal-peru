@@ -5,10 +5,18 @@
   color: #4a4a4a;
 }
 .product-title{
+  text-decoration: none;
   margin: 16px 0;
   padding: 0 1em;
   height: 3.6em;
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 20px;
 }
+.product-title:hover{
+  text-decoration: underline;
+}
+
 .product-actions{
   display: flex;
   flex-direction: column;

@@ -7,17 +7,15 @@ import { ProductService } from '../services/product.service';
   styleUrls: ['./products.component.css'],
 })
 export class ProductsComponent implements OnInit {
- 
+  products = [];
+
   addToCard(id: number): void {
     console.log(id);
   }
 
   constructor(private productService: ProductService) {}
 
-  
-  products = this.productService.getAllProducts();
-  
   ngOnInit(): void {
-
+    this.products = this.productService.getAllProducts();
   }
 }
