@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { Units } from './interfaces/card';
-import { Product } from './interfaces/product';
 
 @Component({
   selector: 'app-root',

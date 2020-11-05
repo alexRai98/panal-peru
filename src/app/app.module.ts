@@ -9,13 +9,15 @@ import { environment } from 'src/environments/environment';
 import { ProductComponent } from './components/product.component';
 import { ProductsComponent } from './products/products.component';
 import { DetailComponent } from './detail/detail.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
     ProductsComponent,
-    DetailComponent
+    DetailComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
