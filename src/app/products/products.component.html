@@ -1,8 +1,12 @@
-
-<div class="product-grid">
-  <app-product
-    *ngFor="let product of products"
-    (productAddCard)="addToCard($event)"
-    [product]="product"
-  ></app-product>
+<app-menu></app-menu>
+<div>
+  <h2 class="title_section">FRUTAS Y VERDURAS</h2>
+  <div class="product-grid">
+    <app-product
+      *ngFor="let product of products"
+      (productAddCard)="addToCard($event)"
+      [product]="product"
+    ></app-product>
+  </div>
 </div>
+<app-card></app-card>

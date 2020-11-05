@@ -1,8 +1,8 @@
-<img [src]="product.image" alt="" />
+<img [src]="product.image" alt="producto" />
 <h3 class="product-title">{{ product.name }}</h3>
 <div class="product-actions">
   <p class="product-actions_price">
-    <strong>S/{{ product.price }}</strong> {{ product.unit }}
+    <strong>S/. {{ product.price }}</strong> {{ product.unit }}
   </p>
   <button class="product-actions_button" (click)="addCard()">
     <small>AGREGAR AL CARRITO </small> 

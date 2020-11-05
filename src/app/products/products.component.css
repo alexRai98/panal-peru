@@ -1,3 +1,12 @@
+:host{
+ display: grid;
+ grid-template-columns: 237px 1fr 560px;
+}
+
+.title_section{
+  color: #4A4A4A;
+  margin-top: 80px;
+}
 
 .product-grid{
   display: grid;
